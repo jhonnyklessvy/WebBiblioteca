@@ -1,0 +1,31 @@
+﻿@model IEnumerable<WebBiblioteca.Models.Autore>
+
+@{
+    ViewData["Title"] = "Autores";
+}
+
+<h1>Lista de Autores</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Autor</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre) de Autor
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

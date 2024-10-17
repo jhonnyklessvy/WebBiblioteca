@@ -1,0 +1,19 @@
+CREATE DATABASE WebBiblioteca;
+GO
+
+USE WebBiblioteca;
+GO
+
+CREATE TABLE Autores(
+AutorID INT IDENTITY(1,1) PRIMARY KEY,
+Nombre Nvarchar(50)
+);
+GO
+
+CREATE TABLE Libros(
+ID_ INT IDENTITY(1,1) PRIMARY KEY,
+Titulo NVARCHAR(50),
+ID_Autor INT,
+CONSTRAINT FK_Libros_Autor FOREIGN KEY (ID_Autor)
+REFERENCES Autores(AutorID)
+);

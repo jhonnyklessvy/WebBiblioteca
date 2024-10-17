@@ -15,8 +15,11 @@ Esta es una aplicación web simple de gestión de biblioteca desarrollada con **
 - ![image](https://github.com/user-attachments/assets/65452e88-05ae-41b1-bba9-f7de4246ba2e)
 - Añadir nuevos libros a la biblioteca seleccionando autores de una lista desplegable.
 - 
+- Listar todos los autores disponibles.
+- ![image](https://github.com/user-attachments/assets/a6238b21-4d55-4c6e-960a-8f0df53ab05b)
 - Añadir nuevos autores al sistema.
-- 
+- ![image](https://github.com/user-attachments/assets/4a00e6a0-e817-41e3-aef7-74b7eb8afbba)
+
 - Validación de formularios para asegurar la entrada correcta de los datos.
 
 ## Pasos para configurar y ejecutar la aplicación

@@ -51,8 +51,12 @@ Esta es una aplicación web simple de gestión de biblioteca desarrollada con **
    ```powershell
    Get-Package | Where-Object { $_.Id -eq 'Microsoft.EntityFrameworkCore' }
 
-### 5. nstalar Entity Framework Core (si es necesario)
+### 5. Instalar Entity Framework Core (si es necesario)
 Si Entity Framework Core no está instalado, ejecuta los siguientes comandos en la Consola del Administrador de Paquetes:
-```powershell
+`powershell
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.EntityFrameworkCore.Tools
+`
+### 6. Ejecutar la Aplicación
+1. Una vez que todo esté configurado, presiona Ctrl + F5 o haz clic en el botón Iniciar en Visual Studio para ejecutar la aplicación.
+2. La aplicación se abrirá en tu navegador predeterminado, y deberías ver la página de inicio de tu aplicación ASP.NET Core.

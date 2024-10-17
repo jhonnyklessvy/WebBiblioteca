@@ -48,15 +48,13 @@ Esta es una aplicación web simple de gestión de biblioteca desarrollada con **
 ### 4. Verificar Instalación de Entity Framework Core
 1. Abre la **Consola del Administrador de Paquetes** desde **Herramientas** > **Administrador de paquetes NuGet** > **Consola del Administrador de Paquetes**.
 2. Verifica si Entity Framework Core está instalado ejecutando el siguiente comando:
-   `
-   Get-Package | Where-Object { $_.Id -eq 'Microsoft.EntityFrameworkCore' }
-   `
+`Get-Package | Where-Object { $_.Id -eq 'Microsoft.EntityFrameworkCore' }`
+   
 ### 5. Instalar Entity Framework Core (si es necesario)
 Si Entity Framework Core no está instalado, ejecuta los siguientes comandos en la Consola del Administrador de Paquetes:
-`
-Install-Package Microsoft.EntityFrameworkCore.SqlServer
-Install-Package Microsoft.EntityFrameworkCore.Tools
-`
+`Install-Package Microsoft.EntityFrameworkCore.SqlServer`
+`Install-Package Microsoft.EntityFrameworkCore.Tools`
+
 ### 6. Ejecutar la Aplicación
 1. Una vez que todo esté configurado, presiona Ctrl + F5 o haz clic en el botón Iniciar en Visual Studio para ejecutar la aplicación.
 2. La aplicación se abrirá en tu navegador predeterminado, y deberías ver la página de inicio de tu aplicación ASP.NET Core."

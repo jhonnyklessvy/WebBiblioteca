@@ -20,7 +20,8 @@ Esta es una aplicación web simple de gestión de biblioteca desarrollada con **
 - Añadir nuevos autores al sistema.
 - ![image](https://github.com/user-attachments/assets/4a00e6a0-e817-41e3-aef7-74b7eb8afbba)
 - Validación de formularios para asegurar la entrada correcta de los datos.
-- 
+-![image](https://github.com/user-attachments/assets/ce5f34d3-d380-4d68-928a-f92456d7bfd9)
+-![image](https://github.com/user-attachments/assets/62a62974-2e23-456d-8485-276ae9ec5fcc)
 
 ## Pasos para configurar y ejecutar la aplicación
 

@@ -49,7 +49,7 @@ Esta es una aplicación web simple de gestión de biblioteca desarrollada con **
 ### 4. Verificar Instalación de Entity Framework Core
 1. Abre la **Consola del Administrador de Paquetes** desde **Herramientas** > **Administrador de paquetes NuGet** > **Consola del Administrador de Paquetes**.
 2. Verifica si Entity Framework Core está instalado ejecutando el siguiente comando:
-`Get-Package | Where-Object { $_.Id -eq 'Microsoft.EntityFrameworkCore' }`
+`Get-Package -ListAvailable | Where-Object {$_.Id -like "*EntityFramework*"}`
    
 ### 5. Instalar Entity Framework Core (si es necesario)
 Si Entity Framework Core no está instalado, ejecuta los siguientes comandos en la Consola del Administrador de Paquetes:

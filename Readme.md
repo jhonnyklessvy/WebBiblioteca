@@ -60,6 +60,6 @@ Si Entity Framework Core no está instalado, ejecuta los siguientes comandos en 
 1. Una vez que todo esté configurado, presiona Ctrl + F5 o haz clic en el botón Iniciar en Visual Studio para ejecutar la aplicación.
 2. La aplicación se abrirá en tu navegador predeterminado, y deberías ver la página de inicio de tu aplicación ASP.NET Core."
 
-##Diagrama Modelo Entidad Relación
+## Diagrama Modelo Entidad Relación
 ![image](https://github.com/user-attachments/assets/b8901826-5c12-42d2-a8b4-a183dbb43d09)
 
